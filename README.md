@@ -1,7 +1,5 @@
-Le mini projet de module Programation pour la formation doctoral 2024-2025 Made by: TERRAK Abderraouf Sidali : abderraouf.terrak@ummto.dz / Doctorant en Électronique des Systèmes Embarqué MADJOUDJ Abdeslam : abdessalam.madjoudj@ummto.dz / Doctorant en Électronique des Systèmes Embarqué
-
-L'intitule de projet Ce projet simule le suivi et l’analyse de la consommation énergétique des moteurs d’un drone. Il utilise la programmation orientée objet, la simulation de capteurs, la détection d’anomalies et le stockage des données dans MongoDB.
-
+Le mini projet de module Programation pour la formation doctoral 2024-2025 realise par: SAADA Nesrine / Doctorante en Élelectrotechnique industielle. BEZZOUH Sara / Doctorante en Élelectrotechnique industielle. ZOURDANI Fatima/ Doctorante en reseaux electriques.
+Ce projet simule le suivi et l’analyse de la consommation énergétique des moteurs d’un drone. Il utilise la programmation orientée objet, la simulation de capteurs, la détection d’anomalies et le stockage des données dans MongoDB.
 Fonctionnalités Simulation de 4 moteurs de drone avec génération aléatoire de consommation. Détection d’anomalies si la consommation est trop basse ou trop haute. Stockage de toutes les mesures dans une collection unique MongoDB, incluant les anomalies. Code testé avec Pytest et vérifié avec flake8 pour la qualité du code.
 
 Structure du projet WS/ ├─ modules/ │ ├─ init.py │ ├─ moteur.py │ ├─ analyseur.py │ └─ db.py ├─ tests/ │ └─ test_all.py └─ main.py
