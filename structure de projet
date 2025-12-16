@@ -1,0 +1,21 @@
+energy-monitoring-project/
+│
+├── energy_monitoring/
+│   ├── __init__.py
+│   ├── sensor.py
+│   ├── database.py
+│   ├── analyzer.py
+│   └── main.py
+│
+├── tests/
+│   ├── __init__.py
+│   ├── test_sensor.py
+│   ├── test_database.py
+│   └── test_analyzer.py
+│
+├── config/
+│   └── .flake8
+│
+├── requirements.txt
+├── .gitignore
+└── README.md
